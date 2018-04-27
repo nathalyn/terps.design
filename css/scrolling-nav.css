@@ -6,34 +6,69 @@
 
 
 
-header {
-  padding: 10%;
+/* header {
+  padding: 0 10%;
   height: 700px;
 
 
 
-}
+} */
 
 bg-clear {
   background:  0, 0, 0, 0%;
 }
 
+.nav-item {
+  margin: 4%;
+  font-weight: 600;
+  font-size: 1.2em;
+  min-width: inherit;
+  text-align: center;
+
+
+}
+ nav {
+   margin: 0 10%;
+ }
+.nav-link {
+
+  /* padding: 0 30%; */
+}
+
 .bg-primary {
     background-color: #FFF7A4!important;
-    padding: 20% 0 0 0;
+    height: 100vh;
+    /* padding: 20% 0 0 0; */
 }
+
+
 
 .bg-primary h1, p {
   text-align: left;
-  width: 65%;
+  width: 80%;
   padding: 2% 0;
   color: black;
+
 }
 
 .bg-primary h1 {
 
   font-size: 3.5em;
-  line-height: 1;
+  line-height: 1.2;
+}
+
+.bg-secondary {
+    background-color: #F6B9B9!important;
+    height: 100vh;
+
+}
+
+.bg-secondary h1, p {
+  text-align: left;
+  width: 80%;
+  padding: 2% 0;
+  color: black;
+
 }
 
 h1 {
